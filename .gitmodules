@@ -1,0 +1,6 @@
+[submodule "catkin_ws/src/apriltag_ros"]
+	path = catkin_ws/src/apriltag_ros
+	url = https://github.com/AprilRobotics/apriltag_ros.git
+[submodule "catkin_ws/src/realsense-ros"]
+	path = catkin_ws/src/realsense-ros
+	url = https://github.com/IntelRealSense/realsense-ros.git
