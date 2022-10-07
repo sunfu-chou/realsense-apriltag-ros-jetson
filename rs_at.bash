@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-git clone https://github.com/sunfu-chou/realsense-apriltag-ros-jetson.git
+git clone --recursive https://github.com/sunfu-chou/realsense-apriltag-ros-jetson.git
 
 cd realsense-apriltag-ros-jetson/catkin_ws \
 && source /opt/ros/melodic/setup.bash \
