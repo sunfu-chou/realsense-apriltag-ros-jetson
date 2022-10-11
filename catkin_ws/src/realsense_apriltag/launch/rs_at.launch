@@ -1,7 +1,7 @@
 <launch>
   <arg name="veh" default="c1" />
   <group name="$(arg veh)">
-    <include file="$(find aprialtag_ros)/launch/continuous_detection.launch"/>
+    <include file="$(find apriltag_ros)/launch/continuous_detection.launch"/>
     <include file="$(find realsense2_camera)/launch/rs_camera.launch"/>
   </group>
 </launch>
